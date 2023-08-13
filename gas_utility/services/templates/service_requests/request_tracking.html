@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <h2>Request Tracking</h2>
+  <table>
+    <tr>
+      <th>Service Type</th>
+      <th>Details</th>
+      <th>Status</th>
+      <th>Date Submitted</th>
+      <th>Date Resolved</th>
+    </tr>
+    {% for service_request in service_requests %}
+      <tr>
+        <td>{{ service_request.service_type }}</td>
+        <td>{{ service_request.details }}</td>
+        <td>{{ service_request.status }}</td>
+        <td>{{ service_request.date_submitted }}</td>
+        <td>{{ service_request.date_resolved }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endblock %}
