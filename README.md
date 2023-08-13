@@ -2,12 +2,12 @@
 gas utility services 
 1. Create vertual env
 2. python manage.py runserver
-3. For user available pages:
-   #i. http://127.0.0.1:8000/register/
-   #ii. http://127.0.0.1:8000/login/
-   #iii. http://127.0.0.1:8000/logout/
-   #iv. http://127.0.0.1:8000/service_request/
-   #v.  http://127.0.0.1:8000/request_tracking/
+3. For user available pages:<br />
+   i. http://127.0.0.1:8000/register/ <br />
+   #ii. http://127.0.0.1:8000/login/<br />
+   #iii. http://127.0.0.1:8000/logout/<br />
+   #iv. http://127.0.0.1:8000/service_request/ <br />
+   #v.  http://127.0.0.1:8000/request_tracking/ <br />
 4. For staff available pages:
    #i. http://127.0.0.1:8000/manage_requests/
 5. sample user:
